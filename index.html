@@ -8,7 +8,7 @@
 <h1 class="hdr">Tic Tac Toe</h1>
 <div class="topnav">
    <div class="innernav">
-    <a id="reset">RESET</a>
+    <a id="reset" onClick="refreshPage()">RESET</a>
     <span id="msgBox">  </span>
     <div class="btngrp">
         <a id="plyr1">Player1</a>
@@ -35,6 +35,11 @@
 		<td class="fake"></td>
 	</tr>
 </table>
+	<script>
+function refreshPage(){
+    window.location.reload();
+} 
+</script>
 <script type="text/javascript" src="tictactoe.js"></script>
 </body>
 </html>
