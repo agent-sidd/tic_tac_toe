@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     font-family: 'Metal Mania', cursive;
+
+}
+body{
+    background: black;
+}
+	table {
+		margin: 25px auto;
+	}
+
+	td {
+		width: 100px;
+        height: 100px;
+        color: teal;
+        font-size:60px;
+        text-align: center;
+        padding: 20px 0;
+        font-weight: bolder;
+    }
+    .fake{
+         color:teal ;
+    }
+
+/*	td:hover {
+		border: 1px solid grey;
+	}*/
+
+	.vertical {
+		border-left: 2px solid rgb(79, 243, 14);
+		border-right: 2px solid rgb(79, 243, 14);
+	}
+
+	.horizontal {
+		border-top: 2px solid rgb(79, 243, 14);
+		border-bottom: 2px solid rgb(79, 243, 14);
+    }
+    
+.hdr{
+    width: 100%;
+    height: auto;
+    background: teal;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 44px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+.topnav{
+width: 100%;
+height: auto;
+background: white;
+
+}
+.innernav{
+    width:50%;
+    margin :0 auto;
+    background: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btngrp{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+#plyr1,#plyr2{
+    margin-left:20px;
+    letter-spacing: 1px;
+}
+.selected{
+   color: white;
+   background-color: teal;
+}
+#msgBox{
+    color: teal;
+}
