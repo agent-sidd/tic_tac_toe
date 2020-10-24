@@ -70,3 +70,11 @@ function isdraw(){
     return cell.classList.contains("ply1")|| cell.classList.contains("ply2") 
   })
 }
+function refreshPage(){
+    for(i=0;i<9;i++){
+       td[i].textContent="";
+    
+    }
+    p1.classList.add("selected");
+  msgBox.textContent="player2 wins";
+}
