@@ -68,7 +68,7 @@ background: white;
 }
 @media screen and (max-width:640px){
 .innernav{
-width:98%;	
+width:98% !important;	
 }
 .btngrp{
     display: flex;
