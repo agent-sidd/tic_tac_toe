@@ -72,6 +72,7 @@ function isdraw(){
   })
 }
 function removeclasses(){
+  td[i].textContent="";
 for(var i=0; i<9; i++){
   if(td[i].classList.contains('ply1')){
  td[i].classList.remove('ply1');
