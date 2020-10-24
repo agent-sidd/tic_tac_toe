@@ -71,6 +71,18 @@ function isdraw(){
     return cell.classList.contains("ply1")|| cell.classList.contains("ply2") 
   })
 }
+function removeclasses(){
+for(var i=0; i<9; i++){
+  if(td[i].classList.contains('ply1')){
+ td[i].classList.remove('ply1');
+  }
+     else if(td[i].classList.contains('ply2')){
+    td[i].classList.remove('ply2');
+     }
+
+}
+}
 function refreshPage(){
+  removeclaases();
   start();
 }
