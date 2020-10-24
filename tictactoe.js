@@ -76,5 +76,5 @@ function refreshPage(){
     
     }
     p1.classList.add("selected");
-  msgBox.textContent="player2 wins";
+  msgBox.textContent="";
 }
