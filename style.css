@@ -66,6 +66,10 @@ background: white;
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width:640px){
+.innernav{
+width:98%;	
+}
 .btngrp{
     display: flex;
     justify-content: space-between;
