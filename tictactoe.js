@@ -10,7 +10,7 @@ var WinComb=[
   [1,4,7],
   [2,5,8],
   [0,4,8],
-  [2,4,7]
+  [2,4,6]
 ];
 var msgBox=document.querySelector("#msgBox");
 /*var nm1=prompt("enter first  player name");
