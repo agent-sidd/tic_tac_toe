@@ -76,9 +76,12 @@ width:98% !important;
     margin: 0 15px;
 }
 #plyr1,#plyr2{
-    margin-left:20px;
+   
     letter-spacing: 1px;
 }
+	#plyr2{
+	 margin-left:20px;
+	}
 .selected{
    color: white;
    background-color: teal;
