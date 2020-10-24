@@ -82,3 +82,9 @@ background: white;
 #msgBox{
     color: teal;
 }
+#reset{
+	cursor:pointer;
+}
+#reset:hover{
+	color:red;
+}
