@@ -17,9 +17,8 @@ var msgBox=document.querySelector("#msgBox");
 var nm2=prompt("enter  second player name ");
 p1.textContent=nm1;
 p2.textContent=nm2;*/
-
+function start(){
 p1.classList.add("selected");
-
 for(var i=0; i<9; i++){
     td[i].addEventListener("click",function(){
       p1.classList.toggle("selected");
@@ -54,6 +53,8 @@ for(var i=0; i<9; i++){
         
     },{once:true});
 }
+}
+start();
 var  functioncalls=0;
 function checkvictory (current){
 functioncalls+=1;
@@ -71,10 +72,5 @@ function isdraw(){
   })
 }
 function refreshPage(){
-    for(i=0;i<9;i++){
-       td[i].textContent="";
-    
-    }
-    p1.classList.add("selected");
-  msgBox.textContent="";
+  start();
 }
